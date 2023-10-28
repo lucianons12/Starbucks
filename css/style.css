@@ -45,3 +45,29 @@ img {
     color: #fff;
     font-size: 25px;
 }
+
+.main__container-logo {
+    display: none;
+}
+
+.main {
+    padding: 15px 15px 60px;
+    margin-top: 90px;
+}
+
+.main__tittle {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.main__tittle span {
+    color: #006241;
+}
+
+.main__description {
+    font-weight: bolder;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
