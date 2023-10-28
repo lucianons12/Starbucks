@@ -249,3 +249,134 @@ img {
     text-decoration: none;
     color: #037a53;
 }
+
+@media (min-width: 768px) {
+    .header__container-login-mobile {
+        display: none;
+    }
+    .header__container-login {
+        display: block;
+    }
+
+    .header__container-login {
+        color: #fff;
+        font-size: 27px;
+    }
+
+    .header__nav {
+        display: block;
+    }
+
+    .header__nav-link {
+        text-decoration: none;
+        color: #fff;
+        margin-left: 10px;
+    }
+
+    .main__container-logo {
+        width: 50%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__logo {
+        width: 90%;
+    }
+
+    .main__container-text {
+        width: 50%;
+    }
+
+    .main {
+        display: flex;
+        padding: 15px 30px 60px;
+    }
+
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .gallery__img {
+        width: 30%;
+        margin-top: 0;
+    }
+
+    .contact__form {
+        width: 400px;
+    }
+
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .cards__card {
+        width: 40%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    }
+
+    @media (min-width: 1024px) {
+        .main__logo {
+            width: 350px;
+        }
+
+        .main {
+            display: flex;
+            padding: 15px 100px 60px;
+    }
+
+    .gallery__img {
+        width: 300px;
+        margin-left: 25px;
+    }
+    .gallery {
+        justify-content: center;
+    }
+
+    .contact__form {
+        width: 700px;
+    }
+
+    .contact__input label {
+        font-size: 17px;
+    }
+
+    .cards__card-btn {
+        background: inherit;
+        border: 1px solid #fff;
+        width: 60%;
+        margin-top: 10px;
+        margin-left: 7.5px;
+        border-radius: 15px;
+        padding: 5px 10px;
+        transition: all 1.5s;
+    }
+
+    .cards__card-container-btn {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer {
+        height: 250px;
+        align-items: center;
+    }
+
+    .footer__link-user,
+    .footer__container-contact,
+    .footer__container-social i {
+        font-size: 30px;
+    }
+
+    
+    }
